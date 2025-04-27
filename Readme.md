@@ -111,6 +111,7 @@ cd backend
 python -m venv venv
 # To Run
 .\venv\Scripts\activate
+
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 Install the dependencies:
